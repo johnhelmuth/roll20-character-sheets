@@ -1,0 +1,102 @@
+<div class='sheet-row'>
+    <div class='sheet-col'>
+        <img width="200" src="http://criticalthreat.gooberfodder.net/smf/fatelogo.png" alt="FATE CORE" />
+    </div>
+</div>
+<div class='sheet-row'>
+    <div class='sheet-col'>
+        <label class="sheet-header">ID </label>
+    </div>
+</div>
+<!-- ID Section -->
+<div class='sheet-3colrow' >
+    <div class='sheet-col'>
+         <label>ID</label> <input class="sheet-inText" type="text" name="attr_ID"  />
+         <label>Description</label> <input class="sheet-inText" type="text" name="attr_Description" />
+    </div>
+    <div class='sheet-col'>
+    </div>
+    <div class='sheet-col'>
+        <label>Refresh</label> <input class="sheet-inText" type="text" name="attr_Refresh"  />
+        <label>Current Fate</label> <input class="sheet-inText" type="text" name="attr_Fate"  />
+    </div>
+</div>
+
+<!-- Aspects/Approaches Section -->
+<div class='sheet-2colrow' >
+    <!-- Aspects -->
+    <div class='sheet-col sheet-aspects-col'>
+        <label class="sheet-colHead">Aspects</label>
+         <input class="sheet-inText sheet-aspect" style="width: 600px;" type="text" name="attr_HighConcept" value="high concept" />
+         <input class="sheet-inText sheet-aspect" style="width: 600px;" style="width: 300px;" type="text" name="attr_Trouble" value="Trouble"/>
+         <fieldset class="repeating_Aspects">
+            <input class="sheet-inText" style="width: 600px;" type="text" name="attr_Aspect" />
+         </fieldset>
+    </div>
+    <!-- Approaches -->
+    <div class="sheet-col sheet-approaches-col">
+        <label class="sheet-colHead">Approaches</label>
+        <label class="sheet-itemLabel">Careful
+            <input class="sheet-approach" type="text" name="attr_Careful"/>
+        </label>
+        <label class="sheet-itemLabel">Clever
+            <input class="sheet-approach" type="text" name="attr_Clever"/>
+        </label>
+        <label class="sheet-itemLabel">Flashy
+            <input class="sheet-approach" type="text" name="attr_Flashy"/>
+        </label>
+        <label class="sheet-itemLabel">Forceful
+            <input class="sheet-approach" type="text" name="attr_Forceful"/>
+        </label>
+        <label class="sheet-itemLabel">Quick
+            <input class="sheet-approach" type="text" name="attr_Quick"/>
+        </label>
+        <label class="sheet-itemLabel">Sneaky
+            <input class="sheet-approach" type="text" name="attr_Sneaky"/>
+        </label>
+    </div>
+</div>
+
+<!-- Stunts Section -->
+<div class='sheet-row' >
+    <div class='sheet-col'>
+       <label class="sheet-colHead">Stunts</label>
+        <textarea class="sheet-inText" style="width: 600px; height: 300px;" type="textarea" name="attr_stunts"></textarea>
+
+    </div>
+</div>
+<!-- Extras Section -->
+<div class='sheet-row' >
+    <div class='sheet-col'>
+        <label class="sheet-colHead">Extras</label>
+        <textarea class="sheet-inText" style="width: 600px; height: 300px;" type="textarea" name="attr_extras"></textarea>
+    </div>
+</div>
+
+<!-- Stress Section -->
+<div class='sheet-row' >
+    <div class='sheet-col'>
+        <label class="sheet-colHeadSmall">Stress</label>
+        <table>
+            <tr>
+                <td>1 <input class="sheet-checkDark" type='checkbox' name='attr_Stress1'  /></td>
+                <td>2 <input class="sheet-checkDark" type='checkbox' name='attr_Stress2'  /></td>
+                <td>3 <input class="sheet-checkDark" type='checkbox' name='attr_Stress3' /></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<!-- Consequences Section -->
+<div class='sheet-row' >
+    <div class='sheet-col'>
+        <label class="sheet-colHead">Consequences</label>
+         <fieldset class="repeating_Cons">
+     <select name="attr_conType" class="dtype">
+          <option value="Mild">Mild</option>
+          <option value="Moderate">Moderate</option>
+          <option value="Severe">Severe</option>
+      </select>
+      <input class="sheet-inText" style="width: 600px;" type="text" name="attr_Consequence" />
+</fieldset>
+    </div>
+</div>

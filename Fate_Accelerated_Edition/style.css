@@ -1,0 +1,62 @@
+.sheet-header {
+    min-width: 800px;
+    background: black;
+    color: white;
+    clear: both;
+    margin-bottom: 4px;
+}
+.sheet-colHead {
+    min-width: 600px;
+    background: black;
+    color: white;
+    clear: both;
+    margin-bottom: 4px;
+}
+.sheet-colHeadSmall {
+
+    background: black;
+    color: white;
+    clear: both;
+    margin-bottom: 4px;
+}
+.sheet-inText {
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px 1px 1px 1px;
+    clear: both;
+    margin-bottom: 4px;
+}
+
+.sheet-aspects-col {
+    width: 50%;
+    float: left;
+}
+
+.sheet-aspect {
+    width: 300px;
+}
+
+.sheet-approaches-col {
+    width: 50%;
+    float: clear;
+}
+
+.sheet-itemLabel {
+    width: 100px;
+}
+
+.sheet-approach {
+    width: 100px;
+}
+
+.sheet-checkDark {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 1px 1px 1px;
+}
+
+.sheet-checkLight {
+    border-style: solid;
+    background-color: #E3E3E3;
+    border-width: 1px 1px 1px 1px;
+}

@@ -1,0 +1,6 @@
+{
+	"html": "Fate_Accelerated_Edition.htm",
+	"css": "style.css",
+	"authors": ["Andrew Bailey (krathognis)", "John Helmuth (johndavid)"],
+	"preview": "demo.png",
+	"instructions": "# Fate Accelerated Edition Character Sheet.\r## Useful Attributes\r\r* ID\r* Description\r* Refresh\r* Fate\r* HighConcept\r* Trouble \r* Approach attributes are listed as follows\r** Careful\r** Clever\r** Flashy\r** Forceful\r** Quick\r** Sneaky\r* Stress (Stress1 - Stress5)\r* Consequences\r** Mild\r** Moderate\r** Severe" }
